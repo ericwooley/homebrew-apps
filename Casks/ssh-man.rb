@@ -1,4 +1,4 @@
-cask "my-app" do
+cask "ssh-man" do
   version "1.0.0"
   sha256 "REPLACE_WITH_SHA256_HASH"
 
