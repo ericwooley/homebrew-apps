@@ -15,5 +15,6 @@ cask "ssh-man" do
   zap trash: [
     "~/Library/Application Support/ssh-man",
     "~/Library/Preferences/com.wails.ssh-man.plist",
+    "~/Library/Preferences/tech.moonpixels.ssh-man.plist",
   ]
 end
