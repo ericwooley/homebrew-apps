@@ -1,8 +1,8 @@
 cask "ssh-man@experimental" do
-  version "1.10.3"
-  sha256 "00b7c566ede11332d2fcc2ab528b6eebad0d07795e0878df0022ea1e067de793"
+  version "1.11.0"
+  sha256 "bf267d5187a724a4325d4111a8c4a9173304f77659bf00618af0e572bd5fc67a"
 
-  url "https://github.com/ericwooley/ssh-man/releases/download/1.10.3/ssh-man.dmg"
+  url "https://github.com/ericwooley/ssh-man/releases/download/1.11.0/ssh-man.dmg"
   name "SSH Man"
   desc "Manage your SSH tunnels and SOCKS5 proxies"
   homepage "https://github.com/ericwooley/ssh-man"
