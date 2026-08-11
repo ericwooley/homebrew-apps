@@ -3,28 +3,28 @@
 class ProcMan < Formula
   desc "Manage local development processes and logs"
   homepage "https://github.com/ericwooley/proc-man"
-  version "1.1.7"
+  version "1.1.8"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/ericwooley/proc-man/releases/download/v#{version}/proc-man_#{version}_darwin_amd64.tar.gz"
-      sha256 "97e574d470eedf72c1405d846b0f3dedbce57aeb0c08c55d108b2721156e5e74"
+      sha256 "263e54312d6191b8dd7770377a832926c40e4837f37e25a585e6e31658be78c8"
     end
     on_arm do
       url "https://github.com/ericwooley/proc-man/releases/download/v#{version}/proc-man_#{version}_darwin_arm64.tar.gz"
-      sha256 "55241494cc14d6bfcf2848a7eb8cdef0edbae51d326b63f6770626a615a4791f"
+      sha256 "750fd60d70361a509b6cece73731aa8f9f5d64886db573313e10f4ccf11794bf"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ericwooley/proc-man/releases/download/v#{version}/proc-man_#{version}_linux_amd64.tar.gz"
-      sha256 "fbc7577c6c5ffa38cd1e74eefc744b87421e84c4f0dd3c4a935893936f05b313"
+      sha256 "908df2b6e8512a4fc878128f142603284fd38d6c42f95bfb19340aacbb835aaf"
     end
     on_arm do
       url "https://github.com/ericwooley/proc-man/releases/download/v#{version}/proc-man_#{version}_linux_arm64.tar.gz"
-      sha256 "6efb4c5f95f358222cfe741ec792c8380a7f01b137641d974f9291bb55397a30"
+      sha256 "74d7529d41f78b67479860f25bd1433c786f99514e85e6f8137f0f6832b8b6a5"
     end
   end
 
