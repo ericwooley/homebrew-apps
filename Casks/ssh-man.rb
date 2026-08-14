@@ -1,12 +1,13 @@
 cask "ssh-man" do
-  version "1.6.0"
-  sha256 "1a46c45b0900c933aa167389f50a370b77c01947ed203ee3cfd2d0fe04dd20ef"
+  version "1.16.1"
+  sha256 "e68f4a3280cbfbc9fb75d9350ee71a58272123d8ce5c0982206cf3729f193d52"
 
-  url "https://github.com/ericwooley/ssh-man/releases/download/1.6.0/ssh-man.dmg"
+  url "https://github.com/ericwooley/ssh-man/releases/download/1.16.1/ssh-man.dmg"
   name "SSH Man"
   desc "Manage your SSH tunnels and SOCKS5 proxies"
   homepage "https://github.com/ericwooley/ssh-man"
 
+  conflicts_with cask: "ssh-man@experimental"
   depends_on :macos
 
   app "ssh-man.app"
